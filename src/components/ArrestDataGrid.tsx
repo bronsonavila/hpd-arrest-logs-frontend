@@ -18,7 +18,7 @@ const columns: GridColDef<ArrestRecord>[] = [
   {
     field: 'arrest_date_time',
     headerName: 'Arrest Date/Time',
-    width: 170,
+    width: 180,
     sortComparator: (value1, value2) => parseArrestDateTime(value1) - parseArrestDateTime(value2)
   },
   { field: 'name', headerName: 'Name', width: 130 },
@@ -28,8 +28,8 @@ const columns: GridColDef<ArrestRecord>[] = [
     width: 110,
     valueFormatter: (value: string) => value?.replace(/,/g, ', ') || ''
   },
-  { field: 'sex', headerName: 'Sex', width: 90 },
-  { field: 'age', headerName: 'Age', width: 90 },
+  { field: 'sex', headerName: 'Sex', width: 100 },
+  { field: 'age', headerName: 'Age', width: 100 },
   { field: 'offense_name', headerName: 'Offense', width: 190 },
   { field: 'offense_citation', headerName: 'Citation', width: 130 },
   { field: 'location_of_arrest', headerName: 'Location', width: 160 },
@@ -41,7 +41,7 @@ const columns: GridColDef<ArrestRecord>[] = [
     width: 140,
     sortComparator: (value1, value2) => parseArrestDateTime(value1) - parseArrestDateTime(value2)
   },
-  { field: 'release_how', headerName: 'Release Method', width: 140 },
+  { field: 'release_how', headerName: 'Release Method', width: 150 },
   { field: 'report_offense_number', headerName: 'Report #', width: 130 }
 ]
 
