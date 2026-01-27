@@ -21,7 +21,7 @@ const columns: GridColDef<ArrestRecord>[] = [
     width: 190,
     sortComparator: (value1, value2) => parseArrestDateTime(value1) - parseArrestDateTime(value2)
   },
-  { field: 'name', headerName: 'Name', width: 130 },
+  { field: 'name', headerName: 'Name', width: 140 },
   {
     field: 'race',
     headerName: 'Race',
