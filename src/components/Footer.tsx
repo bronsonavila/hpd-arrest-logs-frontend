@@ -81,7 +81,7 @@ export function Footer({ metadata }: { metadata: Metadata }) {
                 rel="noopener noreferrer"
               >
                 Honolulu Police Department website
-              </Link>{' '}
+              </Link>
               .
             </Typography>
           </Box>
